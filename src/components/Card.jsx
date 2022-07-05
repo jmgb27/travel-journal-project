@@ -3,17 +3,17 @@ import Pin from "../images/pin.png";
 
 export default function Card({ item }) {
     return (
-        <div className="py-10 flex justify-center">
-            <img className="h-[230px]" src={item.img} />
-            <div className="pl-[25px] pt-[20px] w-[500px]">
+        <div className="flex flex-col sm:flex-row py-10 justify-center">
+            <img className="w-[270px] md:w-[180px]" src={item.img} />
+            <div className="pl-[25px] pt-[20px] w-[300px] md:w-[500px]">
                 <div className="flex gap-2 items-center">
                     <img className="h-[15px]" src={Pin} />
-                    <p className="tracking-widest">
+                    <span className="tracking-widest">
                         {item.country.toUpperCase()}
-                    </p>
-                    <p className="text-[#918E9B] underline">
+                    </span>
+                    <span className="text-[#918E9B] underline">
                         View on Google Maps
-                    </p>
+                    </span>
                 </div>
 
                 <div>
@@ -21,11 +21,11 @@ export default function Card({ item }) {
                 </div>
 
                 <div className="pt-3">
-                    <p className="font-semibold">{item.date}</p>
+                    <span className="font-semibold">{item.date}</span>
                 </div>
 
                 <div className="pt-2">
-                    <p>{item.description}</p>
+                    <span>{item.description}</span>
                 </div>
             </div>
         </div>
