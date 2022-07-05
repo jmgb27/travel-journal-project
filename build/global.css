@@ -464,14 +464,20 @@ video {
 .h-\[25px\] {
   height: 25px;
 }
-.h-\[230px\] {
-  height: 230px;
-}
 .h-\[15px\] {
   height: 15px;
 }
-.w-\[500px\] {
-  width: 500px;
+.w-\[270px\] {
+  width: 270px;
+}
+.w-\[300px\] {
+  width: 300px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
 }
 .justify-center {
   justify-content: center;
@@ -526,6 +532,9 @@ video {
 .font-semibold {
   font-weight: 600;
 }
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -542,7 +551,26 @@ video {
   --tw-shadow-colored: 0 1em 1em -1em var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-body {
-    font-family: sans-serif;
+* {
+    font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 640px) {
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:w-\[180px\] {
+    width: 180px;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
 }

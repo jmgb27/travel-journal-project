@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/jmgb27/travel-journal-project",
     "scripts": {
-        "deploy": "gh-pages -b gh -d build",
+        "deploy": "gh-pages -b ghpage -d build",
         "start": "snowpack dev",
         "build": "snowpack build",
         "test": "echo \"This template does not include a test runner by default.\" && exit 1"
