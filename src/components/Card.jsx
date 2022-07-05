@@ -6,9 +6,11 @@ export default function Card({ item }) {
         <div className="py-10 flex justify-center">
             <img className="h-[230px]" src={item.img} />
             <div className="pl-[25px] pt-[20px] w-[500px]">
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center">
                     <img className="h-[15px]" src={Pin} />
-                    <p>{item.country}</p>
+                    <p className="tracking-widest">
+                        {item.country.toUpperCase()}
+                    </p>
                     <p className="text-[#918E9B] underline">
                         View on Google Maps
                     </p>
