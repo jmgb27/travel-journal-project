@@ -1,24 +1,7 @@
-# React Snowpack Boilerplate + Tailwind CSS
+# Travel Journal Project Scrimba
+This webpage is made using Reactjs with Snowpack compiler and Tailwind CSS. <br/>The goal of this project is to use data from a seperate source and iterate through the data while passing them to a reusable component.
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
-
-## Available Scripts
-
-### npm start
-
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
-
-The page will reload if you make edits.
-You will also see any lint errors in the console.
-
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+**Here are some code snippets:**
+![image](https://user-images.githubusercontent.com/65794951/177199234-f6b58473-e421-4934-809a-9ab1fff153d1.png)
+![image](https://user-images.githubusercontent.com/65794951/177199459-9b96056d-48e9-40d6-9eea-4253fa004007.png)
+![image](https://user-images.githubusercontent.com/65794951/177198817-918ec974-d7b1-417a-b654-7a46da0db6bd.png)
